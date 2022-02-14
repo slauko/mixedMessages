@@ -28,7 +28,20 @@ function getUserMessage(){
 
     } else if (userMessage === "weisheiten") {
 
-
+        const wisdom = [
+            'Wenn der Wind sich legt, sehe ich eine Blüte fallen. Weil ein Vogel singt, entdecke ich die Ruhe des Berges.',
+            'Der Apfel fällt nicht weit vom Stamm.',
+            'Zuerst ignorieren sie dich, dann lachen sie über dich, dann bekämpfen sie dich und dann gewinnst du.',
+            'Die Zukunft hängt davon ab, was wir heute tun.',
+          ];
+          
+          // console.log(wisdom);
+          
+          function getRandomWisdom(wisdom) {
+            window.alert(wisdom[Math.floor(Math.random() * wisdom.length)]);
+          }
+          
+          getRandomWisdom(wisdom);
 
     } else if (userMessage === "witz des tages") {
 
