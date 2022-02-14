@@ -184,4 +184,4 @@ function getUserMessage(){
         userMessage = window.prompt("Ich habe dich nicht verstanden. Bitte wiederhole deine Nachricht.").toLocaleLowerCase;
     }
 
-}/*
+}*/
